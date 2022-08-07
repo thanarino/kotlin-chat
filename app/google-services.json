@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "252538581101",
+    "firebase_url": "https://kotlinchatapp-db918-default-rtdb.firebaseio.com",
+    "project_id": "kotlinchatapp-db918",
+    "storage_bucket": "kotlinchatapp-db918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252538581101:android:d8e83895d716ae4e67cf64",
+        "android_client_info": {
+          "package_name": "com.thanarino.kotlinchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252538581101-lg0tdmctq5meikus0hp01mv2ajqj7qpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcmqvGdb-cQ_kW3qZC3fwpTjhuNtKxMfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252538581101-lg0tdmctq5meikus0hp01mv2ajqj7qpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

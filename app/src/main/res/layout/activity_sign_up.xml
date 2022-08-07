@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".SignUp">
+
+  <ImageView
+    android:id="@+id/app_logo"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="150dp"
+    android:src="@drawable/logo" />
+
+  <EditText
+    android:id="@+id/edt_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/app_logo"
+    android:layout_marginTop="50dp"
+    android:hint="@string/signup_name"
+    android:layout_marginStart="75dp"
+    android:layout_marginEnd="75dp"/>
+
+  <EditText
+    android:id="@+id/edt_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/edt_name"
+    android:layout_marginTop="10dp"
+    android:hint="@string/login_email"
+    android:layout_marginStart="75dp"
+    android:layout_marginEnd="75dp"/>
+
+  <EditText
+    android:id="@+id/edt_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:layout_below="@id/edt_email"
+    android:hint="@string/login_password"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="75dp"
+    android:layout_marginEnd="75dp"
+    />
+
+  <Button
+    android:id="@+id/btn_signup"
+    android:layout_width="175dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/edt_password"
+    android:text="@string/sign_up"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/btn_background"
+    android:textColor="@color/white"
+    android:textAllCaps="false"
+    android:textSize="16sp"
+    />
+
+  <Button
+    android:id="@+id/btn_go_back"
+    style="@style/Widget.AppCompat.Button.Borderless"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btn_signup"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:text="@string/or_go_back"
+    android:textAllCaps="false"
+    android:textColor="@color/gray"
+    android:textSize="16sp" />
+
+</RelativeLayout>

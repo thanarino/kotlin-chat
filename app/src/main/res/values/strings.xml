@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">KotlinChatApp</string>
+  <string name="login_email">Email</string>
+  <string name="login_password">Password</string>
+  <string name="log_in">Log in</string>
+  <string name="sign_up">Sign up</string>
+  <string name="or_sign_up">or <u>Sign up</u></string>
+  <string name="or_go_back">Go back to login</string>
+  <string name="signup_name">Name</string>
+  <string name="logout">Logout</string>
+  <string name="write_message">Write message...</string>
+  <string name="sample_sent_content">sample sent content</string>
+</resources>
